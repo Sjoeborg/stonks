@@ -1,9 +1,9 @@
-name: release-main
+name: release-master
 
 on:
   release:
     types: [published]
-    branches: [main]
+    branches: [master]
 
 jobs:
   set-version:
